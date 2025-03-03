@@ -8,7 +8,6 @@ describe('getUsername', () => {
 
     expect(getUsername()).toBe('Anniken');
 
-    // Restore original implementation
     Storage.prototype.getItem.mockRestore();
   });
 
