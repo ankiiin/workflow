@@ -15,7 +15,7 @@ export function saveUser(user) {
 
 export function getUsername() {
   const user = getFromStorage(userKey);
-  return user ? user.name : null;
+  return user && user.name ? user.name : null;
 }
 
 export function clearKey(key) {
