@@ -1,9 +1,8 @@
 import { getUsername } from '../js/utils/storage.js';
-import { describe, expect, test, vi } from 'vitest';
+import { describe, expect, test } from 'vitest';
 
 describe('getUsername', () => {
   test('returns username from user object', () => {
-    // Mock localStorage
     vi.spyOn(Storage.prototype, 'getItem').mockReturnValue(JSON.stringify({ name: 'Anniken' }));
 
     expect(getUsername()).toBe('Anniken');
