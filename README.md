@@ -17,7 +17,3 @@ This project follows the workflow tasks given in the assignment, including:
 3. **Setting Up Testing Tools**  
    - Installed and configured **Vitest** for unit testing.  
    - Installed and configured **Playwright** for end-to-end testing.  
-
-## 🛠 Installation & Setup
-
-### 1️⃣ Clone the repository
