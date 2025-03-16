@@ -16,4 +16,5 @@ This project follows the workflow tasks given in the assignment, including:
 
 3. **Setting Up Testing Tools**  
    - Installed and configured **Vitest** for unit testing.  
-   - Installed and configured **Playwright** for end-to-end testing.  
+   - Installed and configured **Playwright** for end-to-end testing.
+   - A Playwright test was written to verify navigation from the home page to the venue details page. 
